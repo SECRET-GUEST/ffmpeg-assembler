@@ -1,7 +1,5 @@
 [![Download ffmpeg-assembler](https://img.shields.io/sourceforge/dt/ffmpeg-assembler.svg)](https://sourceforge.net/projects/ffmpeg-assembler/files/latest/download)Python 3.11 | for windows users | Beta 
 
-# COMING SOON
-
 ```
 ███████╗███████╗███╗   ███╗██████╗ ███████╗ ██████╗      █████╗ ███████╗███████╗███████╗███╗   ███╗██████╗ ██╗     ███████╗██████╗ 
 ██╔════╝██╔════╝████╗ ████║██╔══██╗██╔════╝██╔════╝     ██╔══██╗██╔════╝██╔════╝██╔════╝████╗ ████║██╔══██╗██║     ██╔════╝██╔══██╗
