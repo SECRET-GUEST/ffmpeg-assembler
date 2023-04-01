@@ -15,7 +15,7 @@ Python 3.11 | for windows users | Beta
 
 ![Language](https://img.shields.io/badge/language-English-green.svg) ![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
 
-Video Assembler is a PyQt5 application that allows you to effortlessly merge multiple video files from a selected folder. The videos can be assembled in a random order or based on the order they are named. The application supports popular video formats, such as MP4, MOV, AVI, and MKV, and provides an intuitive and efficient user experience. The project documentation and support are powered by OpenAI's ChatGPT.
+Vidize is a PyQt5 application that allows you to effortlessly merge multiple video files from a selected folder. The videos can be assembled in a random order or based on the order they are named. The application supports popular video formats, such as MP4, MOV, AVI, and MKV, and provides an intuitive and efficient user experience. The project documentation and support are powered by OpenAI's ChatGPT.
 
 In release section you can download an executable ready to launch (portable) made for windows with pyinstaller.
 
