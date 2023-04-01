@@ -43,6 +43,7 @@ Or compile it by yourself , I made a tutorial downside of this page.
 6. Monitor the progress of the assembling process in the terminal-like interface.
 
 
+[![Download ffmpeg-assembler](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/ffmpeg-assembler/files/latest/download)
 
 
 ## :scroll: License
