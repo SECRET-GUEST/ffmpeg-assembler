@@ -23,6 +23,8 @@ It's a non-signed software because I prefer to save my money for real stuff, so 
 
 Or compile it by yourself , I made a tutorial downside of this page.
 
+![vidize](https://user-images.githubusercontent.com/92639080/229273386-e1030152-2aa0-47ad-bbed-e48e9821b19f.png)
+
 ## 🌟 Features
 
 - **Intuitive interface**: Modern and easy-to-use graphical interface.
