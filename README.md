@@ -27,7 +27,7 @@ Or compile it by yourself , I made a tutorial downside of this page.
 BTW, if you are searching for more desk tools to opmtimize your productivity you can also check those pages :
 
 - A fast file remover (delete all files who have the same name in a selected folder including subfolder) : https://github.com/SECRET-GUEST/decimator
-- A notepad opening all text file and showing what's hidden in : https://github.com/SECRET-GUEST/ecrire
+- An image sorter, but it's in french : https://github.com/SECRET-GUEST/trieur
 - A powerful autoclicker : https://github.com/SECRET-GUEST/autoclicker
 
 And there are more in tiny script (without graphical user interface but easy to use ) : https://github.com/SECRET-GUEST/tiny-scripts
