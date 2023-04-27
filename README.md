@@ -23,6 +23,15 @@ Or compile it by yourself , I made a tutorial downside of this page.
 
 ![image](https://user-images.githubusercontent.com/92639080/229273465-7c59eaea-a574-4b87-b7cf-f36aa4c04cd6.png)
 
+
+BTW, if you are searching for more desk tools to opmtimize your productivity you can also check those pages :
+
+- A fast file remover (delete all files who have the same name in a selected folder including subfolder) : https://github.com/SECRET-GUEST/decimator
+- A notepad opening all text file and showing what's hidden in : https://github.com/SECRET-GUEST/ecrire
+- A powerful autoclicker : https://github.com/SECRET-GUEST/autoclicker
+
+And there are more in tiny script (without graphical user interface but easy to use ) : https://github.com/SECRET-GUEST/tiny-scripts
+
 ## 🌟 Features
 
 - **Intuitive interface**: Modern and easy-to-use graphical interface.
