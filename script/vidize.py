@@ -182,7 +182,8 @@ class AssembleThread(QThread):
                 return False
 
         # Get all video files in the folder
-        video_files = [f for f in os.listdir(folder_path) if f.endswith(('.mp4', '.mov', '.avi', '.mkv'))]
+        video_files = [f for f in os.listdir(folder_path) if f.lower().endswith(('.mp4', '.mov', '.avi', '.mkv'))]
+
 
         # Shuffle the videos if random order is selected
         if random_order:
@@ -205,12 +206,12 @@ class AssembleThread(QThread):
                     # FFmpeg command to convert videos with audio
                     if has_audio_stream(input_path):
                         command = ['ffmpeg', '-i', input_path, '-c:v', 'libx264', '-crf', '18', '-c:a', 'aac', '-strict', 'experimental', '-r', '30', '-vf', 'scale=-1:720', '-ar', '44100', '-ac', '2', temp_file]
-                    
+
                     # FFmpeg command to convert videos without audio
                     else:
                         command = ['ffmpeg', '-i', input_path, '-c:v', 'libx264', '-crf', '18', '-c:a', 'aac', '-strict', 'experimental', '-f', 'lavfi', '-i', 'anullsrc', '-shortest', '-r', '30', '-vf', 'scale=-1:720', '-ar', '44100', '-ac', '2', temp_file]
 
-                    process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, universal_newlines=True)
+                    process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, universal_newlines=True, creationflags=subprocess.CREATE_NO_WINDOW)
 
                     for line in process.stdout:
                         self.update_terminal.emit(line.strip())
@@ -222,7 +223,8 @@ class AssembleThread(QThread):
             output_path = os.path.join(output_folder, output_name)
 
             command = ['ffmpeg', '-f', 'concat', '-safe', '0', '-i', concat_file, '-c', 'copy', output_path]
-            process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, universal_newlines=True)
+            process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, universal_newlines=True, creationflags=subprocess.CREATE_NO_WINDOW)
+
 
             for line in process.stdout:
                 self.update_terminal.emit(line.strip())
@@ -317,7 +319,7 @@ class VideoAssembler(QWidget):
             QTextEdit {
                 background-color: black;
                 color: lime;
-                font-family: 'Pica Hole - ABS';
+                font-family: 'Cascadia Code SemiBold';
                 font-size: 10pt;
                 border: 1px solid lime;
             }
